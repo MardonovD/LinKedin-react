@@ -152,6 +152,12 @@ const Google = styled.button`
   justify-content: center;
   align-items: center;
   background-color: #fff;
+  height: 56px;
+  width: 100%;
+  border-radius: 28px;
+  box-shadow: inset 0 0 0 1px rgb(0 0 0 /60), inset 0 0 0 2px rgb(0 0 0 /0%);
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.6 );
   img {
     width: 30px;
     height: 30px;
