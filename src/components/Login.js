@@ -13,7 +13,11 @@ const Login = (props) => {
           <SignIn>Sign in </SignIn>
         </div>
       </Nav>
-      <Section>Section</Section>
+      <Section>
+        <Hero>
+          <h1>Welcome to your professional community</h1>
+        </Hero>
+      </Section>
     </Container>
   );
 };
@@ -93,4 +97,10 @@ const Section = styled.section`
   }
 `;
 
+const Hero = styled.div`
+
+
+
+
+`;
 export default Login;
