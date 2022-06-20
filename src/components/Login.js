@@ -98,9 +98,10 @@ const Section = styled.section`
 `;
 
 const Hero = styled.div`
-
-
-
-
+  width: 100%;
+  h1 {
+    padding-bottom: 0;
+    width: 55%;
+  }
 `;
 export default Login;
