@@ -43,6 +43,14 @@ const Nav = styled.nav`
 
 const Join = styled.a`
   font-size: 25px;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.6);
+  margin-right: 12px;
+  &:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.08);
+  }
 `;
 
 export default Login;
