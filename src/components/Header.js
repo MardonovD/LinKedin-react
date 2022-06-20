@@ -64,13 +64,21 @@ const Search = styled.div`
       line-height: 1.75;
       font-weight: 400;
       font-size: 14px;
-      
+      height: 34px;
+      border-color: #dce6f1;
+      vertical-align: text-top;
+      /* margin-left: 50px; */
     }
   }
 `;
 const SearchIcon = styled.div`
   img {
-    width: 20px;
+    width: 35px;
+    position: absolute;
+    top: 1px;
+    z-index: 1;
+    left: 2px;
+    pointer-events: none ;
   }
 `;
 export default Header;
