@@ -1,9 +1,15 @@
 import Login from "./components/Login";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Router, Route } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <h2>Lets bulild the Linkedin clone </h2>
+      <BrowserRouter>
+        <Routes>
+          {/* <Route path="/" element={<App />} /> */}
+          
+          <Route path="/login" element={<Login />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
