@@ -58,6 +58,13 @@ const Search = styled.div`
       border: none;
       box-shadow: none;
       background-color: #eef3f8;
+      border-radius: 2px;
+      color: rgba(0, 0, 0, 0.9);
+      padding: 0 8px 0 40px;
+      line-height: 1.75;
+      font-weight: 400;
+      font-size: 14px;
+      
     }
   }
 `;
