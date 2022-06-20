@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-
 const Header = () => {
   return (
     <Container>
@@ -14,7 +13,9 @@ const Header = () => {
           <div>
             <input type="text" alt="" placeholder="Search" />
           </div>
-          <SearchIcon></SearchIcon>
+          <SearchIcon>
+            <img src="/image logo/search.png" />
+          </SearchIcon>
         </Search>
       </Content>
     </Container>
@@ -48,5 +49,9 @@ const Logo = styled.span`
 `;
 
 const Search = styled.div``;
-const SearchIcon = styled.div``;
+const SearchIcon = styled.div`
+  img {
+    width: 50px;
+  }
+`;
 export default Header;
