@@ -27,6 +27,11 @@ const Nav = styled.nav`
   justify-content: space-between;
   flex-wrap: nowrap;
 
+  & > a {
+    @media (max-width: 768px) {
+      padding: 0 10px;
+    }
+  }
   & > a img {
     width: 135px;
     height: 34px;
