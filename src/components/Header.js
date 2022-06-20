@@ -10,6 +10,12 @@ const Header = () => {
             <img src="/image logo/linkedin.png" alt="image logo" />
           </a>
         </Logo>
+        <Search>
+          <div>
+            <input type="text" alt="" placeholder="Search" />
+          </div>
+          <SearchIcon></SearchIcon>
+        </Search>
       </Content>
     </Container>
   );
@@ -40,4 +46,7 @@ const Logo = styled.span`
   }
   font-size: 0px;
 `;
+
+const Search = styled.div``;
+const SearchIcon = styled.div``;
 export default Header;
