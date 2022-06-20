@@ -82,6 +82,11 @@ const Section = styled.section`
   padding-top: 40px;
   padding: 60px;
   position: relative;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1128px;
+  align-items: center;
+  margin: auto;
 `;
 
 export default Login;
