@@ -45,11 +45,14 @@ const Join = styled.a`
   font-size: 25px;
   padding: 10px 15px;
   text-decoration: none;
+  border-radius: 4px;
   color: rgba(0, 0, 0, 0.6);
   margin-right: 12px;
   &:hover {
     cursor: pointer;
     background-color: rgba(0, 0, 0, 0.08);
+    color: rgba(0, 0, 0, 0.9);
+    text-decoration: none;
   }
 `;
 
