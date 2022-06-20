@@ -87,6 +87,10 @@ const Section = styled.section`
   max-width: 1128px;
   align-items: center;
   margin: auto;
+  @media (min-width: 768px) {
+    margin: auto;
+    min-height: 0px;
+  }
 `;
 
 export default Login;
