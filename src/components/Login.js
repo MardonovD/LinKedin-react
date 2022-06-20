@@ -102,6 +102,7 @@ const Hero = styled.div`
   h1 {
     padding-bottom: 0;
     width: 55%;
+    font-size: 56px;
   }
 `;
 export default Login;
