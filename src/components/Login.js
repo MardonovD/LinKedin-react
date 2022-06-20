@@ -74,4 +74,14 @@ const SignIn = styled.a`
   }
 `;
 
+const Section = styled.section`
+  display: flex;
+  align-content: start;
+  min-height: 700px;
+  padding-bottom: 138px;
+  padding-top: 40px;
+  padding: 60px;
+  position: relative;
+`;
+
 export default Login;
