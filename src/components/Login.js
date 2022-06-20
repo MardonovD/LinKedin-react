@@ -18,6 +18,11 @@ const Login = (props) => {
           <h1>Welcome to your professional community</h1>
           <img src="/image logo/ofice.png" alt="image office" />
         </Hero>
+        <Form>
+          <Google>
+            <img src="/images/google.svg" alt="image google" />
+          </Google>
+        </Form>
       </Section>
     </Container>
   );
