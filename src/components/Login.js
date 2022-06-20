@@ -16,6 +16,7 @@ const Login = (props) => {
       <Section>
         <Hero>
           <h1>Welcome to your professional community</h1>
+          <img src="/image logo/ofice.png" alt="image office" />
         </Hero>
       </Section>
     </Container>
@@ -99,6 +100,7 @@ const Section = styled.section`
 
 const Hero = styled.div`
   width: 100%;
+  position: relative;
   h1 {
     padding-bottom: 0;
     width: 55%;
@@ -111,6 +113,22 @@ const Hero = styled.div`
       text-align: center;
       width: 100%;
       line-height: 2;
+    }
+  }
+
+  img {
+    /* z-index: -1; */
+    border-radius: 50%;
+    width: 500px;
+    height: 572px;
+    position: absolute;
+    /* bottom: -100px; */
+    top: -10px;
+    right: -30px;
+    @media (max-width: 768px) {
+      top: 50px;
+      position: initial;
+      height: initial;
     }
   }
 `;
