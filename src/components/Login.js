@@ -8,6 +8,9 @@ const Login = (props) => {
         <a href="#">
           <img src="/image logo/image.png" alt="image" />
         </a>
+        <div>
+          <Join>Join Now</Join>
+        </div>
       </Nav>
     </Container>
   );
@@ -36,6 +39,10 @@ const Nav = styled.nav`
     width: 135px;
     height: 34px;
   }
+`;
+
+const Join = styled.a`
+  font-size: 25px;
 `;
 
 export default Login;
