@@ -34,6 +34,10 @@ const Content = styled.div`
 
 const Logo = styled.span`
   margin-right: 8px;
-  
+  & > a img {
+    width: 50px;
+    height: auto;
+  }
+  font-size: 0px;
 `;
 export default Header;
