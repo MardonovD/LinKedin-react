@@ -139,11 +139,22 @@ const Hero = styled.div`
   }
 `;
 
-const Form = styled.div``;
+const Form = styled.div`
+  width: 400px;
+
+  margin-top: 100px;
+
+  @media (max-width: 768px) {
+  }
+`;
 const Google = styled.button`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
   img {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
   }
 `;
 export default Login;
