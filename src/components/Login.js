@@ -157,7 +157,12 @@ const Google = styled.button`
   border-radius: 28px;
   box-shadow: inset 0 0 0 1px rgb(0 0 0 /60), inset 0 0 0 2px rgb(0 0 0 /0%);
   font-size: 20px;
-  color: rgba(0, 0, 0, 0.6 );
+  color: rgba(0, 0, 0, 0.6);
+
+  &:hover {
+    color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(207, 207, 207, 0.25);
+  }
   img {
     width: 30px;
     height: 30px;
