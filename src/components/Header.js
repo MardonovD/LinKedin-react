@@ -19,7 +19,7 @@ const Header = () => {
         </Search>
         <Nav>
           <NavListWrap>
-            <NavList>
+            <NavList className="active">
               <a>
                 <i className="home icon"></i>
               </a>
@@ -78,9 +78,11 @@ const Content = styled.div`
 `;
 
 const Logo = styled.span`
+  display: flex;
+  align-items: center;
   margin-right: 8px;
   & > a img {
-    width: 50px;
+    width: 40px;
     height: auto;
   }
   font-size: 0px;
@@ -141,6 +143,10 @@ const NavListWrap = styled.ul`
   display: flex;
   flex-wrap: nowrap;
   list-style: none;
+.active{
+  
+}
+
   @media (max-width: 768px) {
     display: flex;
     justify-content: space-between;
