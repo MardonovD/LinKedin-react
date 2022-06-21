@@ -21,9 +21,37 @@ const Header = () => {
           <NavListWrap>
             <NavList>
               <a>
-                <i class="home icon"></i>
+                <i className="home icon"></i>
               </a>
               <span>Home</span>
+            </NavList>
+
+            <NavList>
+              <a>
+                <i className="th list icon"></i>
+              </a>
+              <span>My Network</span>
+            </NavList>
+
+            <NavList>
+              <a>
+                <i className="shopping bag icon"></i>
+              </a>
+              <span>Jobs</span>
+            </NavList>
+
+            <NavList>
+              <a>
+                <i className="shopping bag icon"></i>
+              </a>
+              <span>Message</span>
+            </NavList>
+
+            <NavList>
+              <a>
+                <i className="bell icon"></i>
+              </a>
+              <span>Notification</span>
             </NavList>
           </NavListWrap>
         </Nav>
