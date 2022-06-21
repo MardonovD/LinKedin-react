@@ -17,7 +17,15 @@ const Header = () => {
             <img src="/image logo/search.png" />
           </SearchIcon>
         </Search>
-        <Nav>Nav Menu</Nav>
+        <Nav>
+          <NavListWrap>
+            <NavList>
+              <a>
+                <img src="" alt="image NavList " />
+              </a>
+            </NavList>
+          </NavListWrap>
+        </Nav>
       </Content>
     </Container>
   );
@@ -99,4 +107,5 @@ const Nav = styled.nav`
     width: 100%;
   }
 `;
+
 export default Header;
