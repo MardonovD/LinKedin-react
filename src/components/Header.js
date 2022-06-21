@@ -263,6 +263,14 @@ const User = styled(NavList)`
       height: 30px;
       border-radius: 50%;
     }
+
+
+  }
+
+  &:hover{
+    ${SignOut}{
+      
+    }
   }
 `;
 const Work = styled(User)`
@@ -278,7 +286,21 @@ const Work = styled(User)`
 `;
 
 const SignOut = styled.div`
-
+  a {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+  }
+  width: 100px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 65px;
+  background: white;
+  border-radius: 5px;
+  display: none;
 `;
 
 export default Header;
