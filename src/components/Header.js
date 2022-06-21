@@ -53,6 +53,18 @@ const Header = () => {
               </a>
               <span>Notification</span>
             </NavList>
+
+            <User>
+              <a>
+                <img src="" alt="" />
+                <span>Me</span>
+                <i className="sort down icon"></i>
+              </a>
+            </User>
+
+            <Work>
+              <i className="tty icon"></i>
+            </Work>
           </NavListWrap>
         </Nav>
       </Content>
@@ -143,6 +155,10 @@ const NavListWrap = styled.ul`
   display: flex;
   flex-wrap: nowrap;
   list-style: none;
+
+  .active a i {
+    color: black;
+  }
 
   .active {
     position: relative;
