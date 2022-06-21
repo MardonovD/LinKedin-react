@@ -277,4 +277,8 @@ const Work = styled(User)`
   border-left: 1px solid rgba(0, 0, 0, 0.2);
 `;
 
+const SignOut = styled.div`
+
+`;
+
 export default Header;
