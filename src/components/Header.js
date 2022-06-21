@@ -17,6 +17,7 @@ const Header = () => {
             <img src="/image logo/search.png" />
           </SearchIcon>
         </Search>
+        <Nav>Nav Menu</Nav>
       </Content>
     </Container>
   );
@@ -85,5 +86,11 @@ const SearchIcon = styled.div`
     align-items: center;
     transition: background-color 0.15s;
   }
+`;
+
+const Nav = styled.nav`
+  margin-right: 60px;
+  display: block;
+   
 `;
 export default Header;
