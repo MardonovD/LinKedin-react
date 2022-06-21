@@ -108,4 +108,7 @@ const Nav = styled.nav`
   }
 `;
 
+const NavListWrap = styled.ul``;
+const NavList = styled.li``;
+
 export default Header;
