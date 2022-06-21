@@ -261,6 +261,16 @@ const User = styled(NavList)`
     }
   }
 `;
-const Work = styled(User)``;
+const Work = styled(User)`
+  padding-left: 10px;
+  margin-top: 13px;
+  div i {
+    font-size: 18px;
+  }
+  i {
+    font-size: 25px;
+  }
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+`;
 
 export default Header;
