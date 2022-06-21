@@ -80,6 +80,10 @@ const SearchIcon = styled.div`
     left: 2px;
     pointer-events: none;
     display: flex;
+    justify-content: center;
+
+    align-items: center;
+    transition: background-color 0.15s;
   }
 `;
 export default Header;
