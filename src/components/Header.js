@@ -141,14 +141,27 @@ const NavListWrap = styled.ul`
   display: flex;
   flex-wrap: nowrap;
   list-style: none;
+  @media (max-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+  }
 `;
 
 const NavList = styled.li`
   display: flex;
   align-items: center;
   flex-direction: column;
+
   a {
-    color: black;
+    i {
+      color: rgba(0, 0, 0, 0.6);
+
+      &:hover,
+      &:active {
+        color: rgba(0, 0, 0, 0.9);
+      }
+    }
 
     align-items: center;
     background: transparent;
