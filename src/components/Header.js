@@ -66,6 +66,10 @@ const Header = () => {
 
             <Work>
               <i className="tty icon"></i>
+              <div>
+                <span>Work</span>
+                <i className="sort down icon"></i>
+              </div>
             </Work>
           </NavListWrap>
         </Nav>
@@ -232,11 +236,20 @@ const NavList = styled.li`
 
 const User = styled(NavList)`
   a {
+    margin-top: 5px;
     display: flex;
     flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
     div {
       display: flex;
-      gap: 5px;
+      /* gap: 5px; */
+      align-items: center;
+      justify-content: center;
+      i {
+        font-size: 18px;
+      }
       span {
         font-size: 18px;
       }
