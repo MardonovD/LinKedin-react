@@ -78,7 +78,8 @@ const SearchIcon = styled.div`
     top: 1px;
     z-index: 1;
     left: 2px;
-    pointer-events: none ;
+    pointer-events: none;
+    display: flex;
   }
 `;
 export default Header;
