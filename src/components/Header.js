@@ -62,6 +62,10 @@ const Header = () => {
                   <i className="sort down icon"></i>
                 </div>
               </a>
+
+              <SignOut>
+                <a>Sign Out</a>
+              </SignOut>
             </User>
 
             <Work>
