@@ -56,9 +56,11 @@ const Header = () => {
 
             <User>
               <a>
-                <img src="" alt="" />
-                <span>Me</span>
-                <i className="sort down icon"></i>
+                <img src="/image logo/myImage.jpg" alt="my image" />
+                <div>
+                  <span>Me</span>
+                  <i className="sort down icon"></i>
+                </div>
               </a>
             </User>
 
@@ -228,7 +230,24 @@ const NavList = styled.li`
   }
 `;
 
-const User = styled(NavList)``;
+const User = styled(NavList)`
+  a {
+    display: flex;
+    flex-direction: column;
+    div {
+      display: flex;
+      gap: 5px;
+      span {
+        font-size: 18px;
+      }
+    }
+    img {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+    }
+  }
+`;
 const Work = styled(User)``;
 
 export default Header;
