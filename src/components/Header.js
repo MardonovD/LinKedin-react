@@ -23,6 +23,7 @@ const Header = () => {
               <a>
                 <i class="home icon"></i>
               </a>
+              <span>Home</span>
             </NavList>
           </NavListWrap>
         </Nav>
@@ -117,7 +118,7 @@ const NavListWrap = styled.ul`
 const NavList = styled.li`
   display: flex;
   align-items: center;
-
+  flex-direction: column;
   a {
     color: black;
 
@@ -133,6 +134,22 @@ const NavList = styled.li`
     min-width: 80px;
     position: relative;
     text-decoration: none;
+
+    span {
+      color: rgba(0, 0, 0, 0.6);
+      display: flex;
+      align-items: center;
+    }
+    @media (max-width: 768px) {
+      min-height: 60px;
+    }
+  }
+  &:hover,
+  &:active {
+    span {
+      color: rgba(0, 0, 0, 0.9);
+      cursor: pointer;
+    }
   }
 `;
 
