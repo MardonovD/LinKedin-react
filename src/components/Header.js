@@ -42,7 +42,7 @@ const Header = () => {
 
             <NavList>
               <a>
-                <i className="shopping bag icon"></i>
+                <i className="envelope outline icon"></i>
               </a>
               <span>Message</span>
             </NavList>
@@ -227,5 +227,8 @@ const NavList = styled.li`
     }
   }
 `;
+
+const User = styled(NavList)``;
+const Work = styled(User)``;
 
 export default Header;
