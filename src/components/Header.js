@@ -143,9 +143,21 @@ const NavListWrap = styled.ul`
   display: flex;
   flex-wrap: nowrap;
   list-style: none;
-.active{
-  
-}
+
+  .active {
+    position: relative;
+    span:after {
+      content: "";
+      transform: scale(1);
+      border-bottom: 2px solid black;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      position: absolute;
+      transition: transform 0.2s ease-in-out;
+      border-color: rgba(0, 0, 0, 0.9);
+    }
+  }
 
   @media (max-width: 768px) {
     display: flex;
