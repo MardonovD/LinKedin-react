@@ -21,7 +21,7 @@ const Header = () => {
           <NavListWrap>
             <NavList>
               <a>
-                <img src="" alt="image NavList " />
+                <i class="home icon"></i>
               </a>
             </NavList>
           </NavListWrap>
@@ -119,11 +119,13 @@ const NavList = styled.li`
   align-items: center;
 
   a {
+    color: black;
+
     align-items: center;
     background: transparent;
     display: flex;
     flex-direction: column;
-    font-size: 12px;
+    font-size: 25px;
     font-weight: 400;
     justify-content: center;
     line-height: 1.5;
@@ -131,7 +133,6 @@ const NavList = styled.li`
     min-width: 80px;
     position: relative;
     text-decoration: none;
-    
   }
 `;
 
