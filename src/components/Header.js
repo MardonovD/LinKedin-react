@@ -91,6 +91,12 @@ const SearchIcon = styled.div`
 const Nav = styled.nav`
   margin-right: 60px;
   display: block;
-   
+  @media (max-width: 768px) {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: white;
+    width: 100%;
+  }
 `;
 export default Header;
