@@ -108,7 +108,31 @@ const Nav = styled.nav`
   }
 `;
 
-const NavListWrap = styled.ul``;
-const NavList = styled.li``;
+const NavListWrap = styled.ul`
+  display: flex;
+  flex-wrap: nowrap;
+  list-style: none;
+`;
+
+const NavList = styled.li`
+  display: flex;
+  align-items: center;
+
+  a {
+    align-items: center;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    font-weight: 400;
+    justify-content: center;
+    line-height: 1.5;
+    min-height: 42px;
+    min-width: 80px;
+    position: relative;
+    text-decoration: none;
+    
+  }
+`;
 
 export default Header;
