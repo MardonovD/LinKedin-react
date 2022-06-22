@@ -3,7 +3,13 @@ import styled from "styled-components";
 const LeftSide = () => {
   return (
     <Container>
-      <ArtCard></ArtCard>
+      <ArtCard>
+
+        <UserInfo>
+
+          
+        </UserInfo>
+      </ArtCard>
     </Container>
   );
 };
