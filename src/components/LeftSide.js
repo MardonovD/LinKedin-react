@@ -59,6 +59,7 @@ const Photo = styled.div`
   background-color: white;
   background-repeat: no-repeat;
   border: 2px solid white;
+  margin: -38px auto;
 `;
 const Link = styled.div``;
 const AddPhotoText = styled.div``;
