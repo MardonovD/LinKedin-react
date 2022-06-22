@@ -1,10 +1,16 @@
 import React from "react";
 import styled from "styled-components";
 const LeftSide = () => {
-  return <Container>Left side</Container>;
+  return (
+    <Container>
+      <ArtCard>Card</ArtCard>
+    </Container>
+  );
 };
 
 const Container = styled.div`
   grid-area: leftSide;
 `;
+
+const ArtCard = styled.div``;
 export default LeftSide;
