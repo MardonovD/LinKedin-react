@@ -41,6 +41,12 @@ const Section = styled.section`
     font-size: 14px;
     color: #434649;
   }
+
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
 `;
 
 export default Home;
