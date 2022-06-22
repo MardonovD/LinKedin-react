@@ -17,7 +17,6 @@ const Home = () => {
       </Section>
       <Layout>
       
-        <div>Main side</div>
         <div>Right side</div>
       </Layout>
     </Container>
