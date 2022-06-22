@@ -12,5 +12,7 @@ const Container = styled.div`
   grid-area: leftSide;
 `;
 
-const ArtCard = styled.div``;
+const ArtCard = styled.div`
+  text-align: center;
+`;
 export default LeftSide;
