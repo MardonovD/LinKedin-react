@@ -17,6 +17,7 @@ const Home = () => {
       </Section>
       <Layout>
         <LeftSide />
+        <Main />
       </Layout>
     </Container>
   );
