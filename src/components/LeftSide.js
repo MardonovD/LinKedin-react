@@ -4,4 +4,5 @@ const LeftSide = () => {
   return <Container>Left side</Container>;
 };
 
+const LeftSide = styled.div``;
 export default LeftSide;
