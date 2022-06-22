@@ -13,6 +13,11 @@ const Home = () => {
           Find talented pros in record time with Upwork and keep business moving
         </p>
       </Section>
+      <Layout>
+        <div>Left side</div>
+        <div>Main side</div>
+        <div>Right side</div>
+      </Layout>
     </Container>
   );
 };
