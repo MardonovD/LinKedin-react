@@ -17,7 +17,9 @@ const Home = () => {
   );
 };
 
-const Container = styled.div``;
+const Container = styled.div`
+  padding-top: 70px;
+`;
 const Section = styled.section``;
 
 export default Home;

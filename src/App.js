@@ -6,6 +6,7 @@ import Home from "./components/Home";
 const App = () => {
   return (
     <div className="App">
+      <Header />
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Login />} />
