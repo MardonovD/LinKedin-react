@@ -57,9 +57,12 @@ const Photo = styled.div`
   background-position: center;
   background-size: 80%;
   background-color: white;
+  box-sizing: border-box;
   background-repeat: no-repeat;
   border: 2px solid white;
-  margin: -38px auto;
+  margin: -38px auto 12px;
+  border-radius: 50%;
+  background-clip: content-box;
 `;
 const Link = styled.div``;
 const AddPhotoText = styled.div``;
