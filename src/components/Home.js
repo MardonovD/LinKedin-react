@@ -18,6 +18,7 @@ const Home = () => {
       <Layout>
         <LeftSide />
         <Main />
+        <RoghtSide />
       </Layout>
     </Container>
   );
