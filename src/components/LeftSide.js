@@ -17,5 +17,6 @@ const ArtCard = styled.div`
   overflow: hidden;
   margin-bottom: 8px;
   background-color: #fff;
+  border-radius: 5px;
 `;
 export default LeftSide;
