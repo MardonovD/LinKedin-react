@@ -16,7 +16,7 @@ const Home = () => {
         </p>
       </Section>
       <Layout>
-        <div>Left side</div>
+      
         <div>Main side</div>
         <div>Right side</div>
       </Layout>
