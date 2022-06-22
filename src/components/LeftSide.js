@@ -4,5 +4,7 @@ const LeftSide = () => {
   return <Container>Left side</Container>;
 };
 
-const LeftSide = styled.div``;
+const Container = styled.div`
+  grid-area: leftSide;
+`;
 export default LeftSide;
