@@ -5,7 +5,7 @@ const RoghtSide = () => {
 };
 
 const Container = styled.div`
-grid-area: ;
+grid-area: RightSide;
 `;
 
 export default RoghtSide;
