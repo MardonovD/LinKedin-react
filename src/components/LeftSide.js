@@ -40,4 +40,5 @@ const UserInfo = styled.div``;
 const CardBackground = styled.div``;
 const Photo = styled.div``;
 const Link = styled.div``;
+const AddPhotoText = styled.div``;
 export default LeftSide;
