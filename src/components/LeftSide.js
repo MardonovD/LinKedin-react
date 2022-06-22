@@ -34,4 +34,6 @@ const ArtCard = styled.div`
   border: none;
   box-shadow: 0 0 0 1px rgb(0 0 0 /15%), 0 0 0 rgb(0 0 0 /20%);
 `;
+
+const UserInfo = styled.div``;
 export default LeftSide;
