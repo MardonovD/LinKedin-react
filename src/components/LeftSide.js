@@ -51,7 +51,7 @@ const CardBackground = styled.div`
 `;
 const Photo = styled.div`
   box-shadow: none;
-  background-image: url("/image logo/myImage.png");
+  background-image: url("/image logo/myImage.jpg");
   width: 72px;
   height: 72px;
 `;
