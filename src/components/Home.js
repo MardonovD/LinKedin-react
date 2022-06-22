@@ -1,4 +1,5 @@
 import React from "react";
+import styled from "styled-components";
 import Header from "./Header";
 
 const Home = () => {
@@ -15,5 +16,8 @@ const Home = () => {
     </Container>
   );
 };
+
+const Container = styled.div``;
+const Section = styled.section``;
 
 export default Home;
