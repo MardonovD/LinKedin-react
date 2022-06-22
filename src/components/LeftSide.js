@@ -47,7 +47,7 @@ const CardBackground = styled.div`
   background-position: center;
   background-size: 462px;
   height: 54px;
-  margin: ;
+  margin: -12px -12px 0;
 `;
 const Photo = styled.div``;
 const Link = styled.div``;
