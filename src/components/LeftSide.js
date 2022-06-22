@@ -11,6 +11,10 @@ const LeftSide = () => {
             <Link>Welcome , there!</Link>
           </a>
           <a>
+            <AddPhotoText>
+
+              
+            </AddPhotoText>
           </a>
         </UserInfo>
       </ArtCard>
