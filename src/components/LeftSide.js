@@ -42,7 +42,9 @@ const UserInfo = styled.div`
   word-break: break-word;
 `;
 
-const CardBackground = styled.div``;
+const CardBackground = styled.div`
+background: url('');
+`;
 const Photo = styled.div``;
 const Link = styled.div``;
 const AddPhotoText = styled.div``;
