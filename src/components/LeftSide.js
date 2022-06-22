@@ -43,7 +43,7 @@ const UserInfo = styled.div`
 `;
 
 const CardBackground = styled.div`
-  background: url("/image logo/myImage.png");
+  background: url("/image logo/image.png");
   background-position: center;
   background-size: 462px;
   height: 54px;
