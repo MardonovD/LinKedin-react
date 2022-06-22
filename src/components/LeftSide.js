@@ -19,5 +19,6 @@ const ArtCard = styled.div`
   background-color: #fff;
   border-radius: 5px;
   transition: box-shadow 83ms;
+  position: relative;
 `;
 export default LeftSide;
