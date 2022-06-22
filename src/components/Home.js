@@ -57,7 +57,7 @@ const Section = styled.section`
 const Layout = styled.div`
   /* width: 100%; */
   display: grid;
-  grid-template-areas: " leftSide  middle side Right Side";
+  grid-template-areas: " leftSide  middleside Right Side";
   grid-template-columns: minmax(0, 5fr) minmax(0, 12fr) minmax(300px, 7fr);
   column-gap: 25px;
   row-gap: 25px;

@@ -4,8 +4,7 @@ const Main = () => {
   return <Container>Main side</Container>;
 };
 const Container = styled.div`
-
-grid-area: ;
+  grid-area: middleside;
 `;
 
 export default Main;
