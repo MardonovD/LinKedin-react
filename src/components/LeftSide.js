@@ -43,7 +43,7 @@ const UserInfo = styled.div`
 `;
 
 const CardBackground = styled.div`
-background: url('');
+  background: url("/image logo/myImage.png");
 `;
 const Photo = styled.div``;
 const Link = styled.div``;
