@@ -19,6 +19,7 @@ const Home = () => {
 
 const Container = styled.div`
   padding-top: 70px;
+  max-width: 100%;
 `;
 const Section = styled.section``;
 
