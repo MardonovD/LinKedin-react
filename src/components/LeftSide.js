@@ -53,6 +53,7 @@ const Photo = styled.div`
   box-shadow: none;
   background-image: url("/image logo/myImage.png");
   width: 72px;
+  height: 72px;
 `;
 const Link = styled.div``;
 const AddPhotoText = styled.div``;
