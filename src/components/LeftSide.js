@@ -5,7 +5,10 @@ const LeftSide = () => {
     <Container>
       <ArtCard>
         <UserInfo>
-          <CardBackground></CardBackground>
+          <CardBackground />
+          <a>
+            <Photo />
+          </a>
         </UserInfo>
       </ArtCard>
     </Container>
