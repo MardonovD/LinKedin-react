@@ -21,6 +21,10 @@ const Container = styled.div`
   padding-top: 70px;
   max-width: 100%;
 `;
-const Section = styled.section``;
+const Section = styled.section`
+  min-height: 50px;
+  padding: 16px 0;
+  text-align: center;
+`;
 
 export default Home;
