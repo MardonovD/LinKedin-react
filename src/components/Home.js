@@ -16,7 +16,7 @@ const Home = () => {
         </p>
       </Section>
       <Layout>
-      
+        <LeftSide />
       </Layout>
     </Container>
   );
