@@ -35,7 +35,9 @@ const ArtCard = styled.div`
   box-shadow: 0 0 0 1px rgb(0 0 0 /15%), 0 0 0 rgb(0 0 0 /20%);
 `;
 
-const UserInfo = styled.div``;
+const UserInfo = styled.div`
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+`;
 
 const CardBackground = styled.div``;
 const Photo = styled.div``;
