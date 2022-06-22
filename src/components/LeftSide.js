@@ -49,7 +49,9 @@ const CardBackground = styled.div`
   height: 54px;
   margin: -12px -12px 0;
 `;
-const Photo = styled.div``;
+const Photo = styled.div`
+  box-shadow: none;
+`;
 const Link = styled.div``;
 const AddPhotoText = styled.div``;
 export default LeftSide;
