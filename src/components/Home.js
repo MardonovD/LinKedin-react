@@ -3,6 +3,7 @@ import styled from "styled-components";
 import Header from "./Header";
 import LeftSide from "./LeftSide";
 import Main from "./Main";
+import RoghtSide from "./RoghtSide";
 const Home = () => {
   return (
     <Container>
