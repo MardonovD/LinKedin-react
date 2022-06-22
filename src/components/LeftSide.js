@@ -4,10 +4,8 @@ const LeftSide = () => {
   return (
     <Container>
       <ArtCard>
-
         <UserInfo>
-
-          
+          <CardBackground></CardBackground>
         </UserInfo>
       </ArtCard>
     </Container>
