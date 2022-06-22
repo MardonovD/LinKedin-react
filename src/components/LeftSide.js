@@ -46,6 +46,8 @@ const CardBackground = styled.div`
   background: url("/image logo/myImage.png");
   background-position: center;
   background-size: 462px;
+  height: 54px;
+  margin: ;
 `;
 const Photo = styled.div``;
 const Link = styled.div``;
