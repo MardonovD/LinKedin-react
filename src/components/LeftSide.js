@@ -18,5 +18,6 @@ const ArtCard = styled.div`
   margin-bottom: 8px;
   background-color: #fff;
   border-radius: 5px;
+  transition: box-shadow 83ms;
 `;
 export default LeftSide;
