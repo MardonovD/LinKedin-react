@@ -8,6 +8,7 @@ const LeftSide = () => {
           <CardBackground />
           <a>
             <Photo />
+            <Link>Welcome , there!</Link>
           </a>
         </UserInfo>
       </ArtCard>
