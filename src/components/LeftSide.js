@@ -15,5 +15,6 @@ const Container = styled.div`
 const ArtCard = styled.div`
   text-align: center;
   overflow: hidden;
+  margin-bottom: 8px;
 `;
 export default LeftSide;
