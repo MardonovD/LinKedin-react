@@ -54,6 +54,7 @@ const Photo = styled.div`
   background-image: url("/image logo/myImage.jpg");
   width: 72px;
   height: 72px;
+  background-position: center;
 `;
 const Link = styled.div``;
 const AddPhotoText = styled.div``;
