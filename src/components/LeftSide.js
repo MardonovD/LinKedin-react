@@ -36,4 +36,6 @@ const ArtCard = styled.div`
 `;
 
 const UserInfo = styled.div``;
+
+const CardBackground = styled.div``;
 export default LeftSide;
