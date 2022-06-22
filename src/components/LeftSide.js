@@ -3,7 +3,7 @@ import styled from "styled-components";
 const LeftSide = () => {
   return (
     <Container>
-      <ArtCard>Card</ArtCard>
+      <ArtCard></ArtCard>
     </Container>
   );
 };
